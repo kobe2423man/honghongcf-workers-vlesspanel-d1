@@ -3,8 +3,8 @@ import { connect } from 'cloudflare:sockets';
 // ===========================================
 // 默认配置
 // ===========================================
-const DEFAULT_UUID = '469cb497-03dd-4d8e-967d-366e0ffe9551';
-const DEFAULT_SUBPATH = 'link';
+const DEFAULT_UUID = '1c7f9811-e52b-4cfc-bf22-78692b5281df';
+const DEFAULT_SUBPATH = 'sub';
 const DEFAULT_PASSWORD = 'password';
 
 // CDN 配置
@@ -505,3 +505,4 @@ function getMainPageContent(url, baseUrl, subPath, uuid, totalTraffic) {
 </html>`;
   return new Response(html, { headers: { 'Content-Type': 'text/html;charset=utf-8' } });
 }
+
